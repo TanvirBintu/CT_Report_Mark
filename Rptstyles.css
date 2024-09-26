@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* Styling the statistics */
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.statistics p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 20px;
+  color: #333;
+}
+
+.statistics h2 {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #4a90e2;
+}
+
+.statistics p:last-of-type {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .highlight {
+    background-color: #e6f7ff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .print-button-container {
+      text-align: left; /* Align left on smaller screens */
+  }
+
+  table th, table td {
+      padding: 5px;
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+  .print-button-container {
+    text-align: right; /* Aligns the button to the right */
+    margin-bottom: 10px; /* Space between the button and the table */
+}
+
+#print-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#print-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Print Styles */
+@media print {
+    body {
+        margin: 0; /* Remove margins */
+        padding: 0; /* Remove padding */
+        font-size: 12px; /* Adjust font size for printing */
+        color: black; /* Ensure text is black for printing */
+        background: white; /* Set background to white for print */
+    }
+
+    @page {
+        margin: 0.5in; /* Adjust margins to prevent cutting off */
+    }
+  /* Hide the print button */
+  .print-button-container {
+      display: none; /* Hide the print button on print */
+  }
+
+  /* Prevent text wrapping */
+  th, td {
+      white-space: normal; /* Allow text wrapping */
+  }
+}

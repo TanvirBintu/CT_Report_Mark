@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTMark</title>
+    <link rel="stylesheet" href="Mrkstyles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="statistics">
+            <p>Total Students: <span id="total-students"></span></p>
+            <p>Total Pass: <span id="total-pass"></span></p>
+            <p>Total Fail: <span id="total-fail"></span></p>
+            <p>Total Absent: <span id="total-absent"></span></p>
+
+            <h2>Class Test-1 Result</h2>
+            <p>Class - XII | Session - 2024 | Group - Science | Section - XIIA1</p>
+        </div>
+
+        <!-- Input field for page size -->
+        <div class="page-size">
+            <label for="page-size">Students per page:</label>
+            <input type="number" id="page-size" min="1" value="10">
+            <button id="set-page-size">Set</button>
+        </div>
+        <div class="print-button-container" style="text-align: right; margin-bottom: 10px;">
+            <button onclick="window.print()">Print</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">SL</th>
+                        <th rowspan="2">Student</th>
+                        <th rowspan="2">Group</th>
+                        <th rowspan="2">Optional Course</th>
+                        <th rowspan="2">Average Mark</th>
+                        <th rowspan="2">Total Mark</th>
+                        <!-- Subject headers will be generated dynamically -->
+                    </tr>
+                    <tr>
+                        <!-- Empty row for subject headers -->
+                    </tr>
+                </thead>
+                <tbody id="marks-table">
+                    <!-- Data will be injected here via JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="Mrkscript.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Styling the statistics */
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.statistics p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 20px;
+    color: #333;
+}
+
+.statistics h2 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #4a90e2;
+}
+
+.statistics p:last-of-type {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Input field and button styling */
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 80px; /* Fixed width for the input field */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Table container styling */
+.table-container {
+    overflow-x: auto; /* Ensure horizontal scroll */
+    max-width: 100%; /* Limit container width */
+    border: 1px solid #ccc; /* Optional: add a border for table container clarity */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Ensure the table takes the full width */
+    border-collapse: collapse; /* Collapse borders */
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Table headers styling */
+thead th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+tbody td {
+    vertical-align: middle; /* Aligns data properly */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .print-button-container {
+        text-align: left; /* Align left on smaller screens */
+    }
+
+    table th, table td {
+        padding: 5px;
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+.print-button-container {
+    text-align: right; /* Aligns the button to the right */
+    margin-bottom: 10px; /* Space between the button and the table */
+}
+
+#print-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#print-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Print Styles */
+@media print {
+    body {
+        margin: 0; /* Remove margins */
+        padding: 0; /* Remove padding */
+        font-size: 12px; /* Adjust font size for printing */
+        color: black; /* Ensure text is black for printing */
+        background: white; /* Set background to white for print */
+    }
+
+    @page {
+        margin: 0.5in; /* Adjust margins to prevent cutting off */
+    }
+
+    .container {
+        width: 100%; /* Full width for the container */
+        overflow: visible; /* Allow overflow to be visible */
+    }
+
+    table {
+        width: 100%; /* Ensure the table takes the full width */
+        border-collapse: collapse; /* Collapse borders */
+        page-break-inside: auto; /* Avoid breaking inside the table */
+    }
+
+    th, td {
+        border: 1px solid #000; /* Solid black borders */
+        padding: 5px; /* Adjust padding */
+        text-align: center; /* Center align text */
+        font-size: 12px; /* Adjust font size for printing */
+    }
+
+    thead th {
+        background-color: #f2f2f2; /* Light grey background for headers */
+        font-weight: bold; /* Bold headers */
+    }
+
+    /* Hide the print button */
+    .print-button-container {
+        display: none; /* Hide the print button on print */
+    }
+
+    /* Prevent text wrapping */
+    th, td {
+        white-space: normal; /* Allow text wrapping */
+    }
+}

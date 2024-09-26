@@ -1,0 +1,610 @@
+{
+    "totalStudents": 30,
+    "totalPass": 27,
+    "totalFail": 3,
+    "totalAbsent": 0,
+    "students": [
+        {
+            "name": "MD. Tanvir Hossain Khan",
+            "id": "ST12345",
+            "roll": "1001",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA1",
+            "optionalCourse": "HMM-1",
+            "averageMark": 16,
+            "totalMark": 96,
+            "subjects": {
+                "Ban-1": 15,
+                "Eng-1": 14,
+                "Phy-1": 18,
+                "Che-1": 16,
+                "Bio-1": 6,
+                "HMM-1": 5,
+                "ICT-1": 18
+            }
+        },
+        {
+            "name": "Ayesha Rahman",
+            "id": "ST12346",
+            "roll": "1002",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA1",
+            "optionalCourse": "HMM-1",
+            "averageMark": 18,
+            "totalMark": 104,
+            "subjects": {
+                "Ban-1": 16,
+                "Eng-1": 17,
+                "Phy-1": 20,
+                "Che-1": 18,
+                "Bio-1": 16,
+                "HMM-1": 17,
+                "ICT-1": 18
+            }
+        },
+        {
+            "name": "Tanvir Ahmed",
+            "id": "ST12347",
+            "roll": "1003",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA1",
+            "optionalCourse": "HMM-2",
+            "averageMark": 14,
+            "totalMark": 88,
+            "subjects": {
+                "Ban-1": 12,
+                "Eng-1": 13,
+                "Phy-1": 15,
+                "Che-1": 14,
+                "Bio-1": 16,
+                "HMM-2": 18,
+                "ICT-1": 16
+            }
+        },
+        {
+            "name": "Farhan Rahim",
+            "id": "ST12348",
+            "roll": "1004",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA1",
+            "optionalCourse": "HMM-1",
+            "averageMark": 19,
+            "totalMark": 114,
+            "subjects": {
+                "Ban-1": 18,
+                "Eng-1": 18,
+                "Phy-1": 19,
+                "Che-1": 20,
+                "Bio-1": 18,
+                "HMM-1": 19,
+                "ICT-1": 20
+            }
+        },
+        {
+            "name": "Nafisa Kabir",
+            "id": "ST12349",
+            "roll": "1005",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA3",
+            "optionalCourse": "HMM-2",
+            "averageMark": 12,
+            "totalMark": 78,
+            "subjects": {
+                "Ban-1": 11,
+                "Eng-1": 12,
+                "Phy-1": 14,
+                "Che-1": 12,
+                "Bio-1": 11,
+                "HMM-2": 13,
+                "ICT-1": 15
+            }
+        },
+        {
+            "name": "Zara Haque",
+            "id": "ST12350",
+            "roll": "1006",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA3",
+            "optionalCourse": "HMM-1",
+            "averageMark": 17,
+            "totalMark": 102,
+            "subjects": {
+                "Ban-1": 5,
+                "Eng-1": 16,
+                "Phy-1": 17,
+                "Che-1": 18,
+                "Bio-1": 17,
+                "HMM-1": 18,
+                "ICT-1": 20
+            }
+        },
+        {
+            "name": "Aminul Islam",
+            "id": "ST12351",
+            "roll": "1007",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA2",
+            "optionalCourse": "HMM-2",
+            "averageMark": 15,
+            "totalMark": 92,
+            "subjects": {
+                "Ban-1": 14,
+                "Eng-1": 14,
+                "Phy-1": 16,
+                "Che-1": 15,
+                "Bio-1": 15,
+                "HMM-2": 3,
+                "ICT-1": 20
+            }
+        },
+        {
+            "name": "Rafid Anwar",
+            "id": "ST12352",
+            "roll": "1008",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA2",
+            "optionalCourse": "HMM-1",
+            "averageMark": 13,
+            "totalMark": 80,
+            "subjects": {
+                "Ban-1": 12,
+                "Eng-1": 13,
+                "Phy-1": 13,
+                "Che-1": 14,
+                "Bio-1": 12,
+                "HMM-1": 16,
+                "ICT-1": 14
+            }
+        },
+        {
+            "name": "Fahim Ahmed",
+            "id": "ST12353",
+            "roll": "1009",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA3",
+            "optionalCourse": "HMM-2",
+            "averageMark": 18,
+            "totalMark": 106,
+            "subjects": {
+                "Ban-1": 16,
+                "Eng-1": 18,
+                "Phy-1": 19,
+                "Che-1": 18,
+                "Bio-1": 17,
+                "HMM-2": 18,
+                "ICT-1": 20
+            }
+        },
+        {
+            "name": "Sadia Alam",
+            "id": "ST12354",
+            "roll": "1010",
+            "group": "Science",
+            "version": "Bangla",
+            "section": "XIIA2",
+            "optionalCourse": "HMM-1",
+            "averageMark": 14,
+            "totalMark": 85,
+            "subjects": {
+                "Ban-1": 13,
+                "Eng-1": 14,
+                "Phy-1": 15,
+                "Che-1": 13,
+                "Bio-1": 12,
+                "HMM-1": 15,
+                "ICT-1": 16
+            }
+        },
+        {
+            "name": "Ahmed Faisal",
+            "id": "ST22345",
+            "roll": "2001",
+            "group": "Commerce",
+            "version": "Bangla",
+            "section": "XIIE",
+            "optionalCourse": "Accounting-1",
+            "averageMark": 16,
+            "totalMark": 96,
+            "subjects": {
+                "Ban-1": 15,
+                "Eng-1": 14,
+                "Accounting-1": 17,
+                "Economics-1": 16,
+                "Business-1": 14,
+                "Marketing-1": 15,
+                "ICT-1": 18
+            }
+        },
+        {
+            "name": "Nazia Khan",
+            "id": "ST22346",
+            "roll": "2002",
+            "group": "Commerce",
+            "version": "Bangla",
+            "section": "XIIE",
+            "optionalCourse": "Economics-1",
+            "averageMark": 18,
+            "totalMark": 108,
+            "subjects": {
+                "Ban-1": 17,
+                "Eng-1": 16,
+                "Accounting-1": 19,
+                "Economics-1": 18,
+                "Business-1": 17,
+                "Marketing-1": 18,
+                "ICT-1": 19
+            }
+        },
+        {
+            "name": "Mahin Khan",
+            "id": "ST22347",
+            "roll": "2003",
+            "group": "Commerce",
+            "version": "Bangla",
+            "section": "XIIE",
+            "optionalCourse": "Accounting-1",
+            "averageMark": 14,
+            "totalMark": 90,
+            "subjects": {
+                "Ban-1": 12,
+                "Eng-1": 13,
+                "Accounting-1": 16,
+                "Economics-1": 14,
+                "Business-1": 13,
+                "Marketing-1": 15,
+                "ICT-1": 18
+            }
+        },
+        {
+            "name": "Farhana Ahmed",
+            "id": "ST22348",
+            "roll": "2004",
+            "group": "Commerce",
+            "version": "Bangla",
+            "section": "XIIE",
+            "optionalCourse": "Marketing-1",
+            "averageMark": 19,
+            "totalMark": 115,
+            "subjects": {
+                "Ban-1": 18,
+                "Eng-1": 19,
+                "Accounting-1": 20,
+                "Economics-1": 19,
+                "Business-1": 18,
+                "Marketing-1": 19,
+                "ICT-1": 20
+            }
+        },
+        {
+            "name": "Nasir Uddin",
+            "id": "ST22349",
+            "roll": "2005",
+            "group": "Commerce",
+            "version": "Bangla",
+            "section": "XIIE",
+            "optionalCourse": "Economics-1",
+            "averageMark": 12,
+            "totalMark": 78,
+            "subjects": {
+                "Ban-1": 11,
+                "Eng-1": 12,
+                "Accounting-1": 13,
+                "Economics-1": 14,
+                "Business-1": 12,
+                "Marketing-1": 13,
+                "ICT-1": 15
+              }
+            },
+            {
+              "name": "Rahim Ullah",
+              "id": "ST22350",
+              "roll": "2006",
+              "group": "Commerce",
+              "version": "Bangla",
+              "section": "XIIE",
+              "optionalCourse": "Marketing-1",
+              "averageMark": 17,
+              "totalMark": 102,
+              "subjects": {
+                "Ban-1": 16,
+                "Eng-1": 16,
+                "Accounting-1": 18,
+                "Economics-1": 17,
+                "Business-1": 16,
+                "Marketing-1": 17,
+                "ICT-1": 18
+              }
+            },
+            {
+              "name": "Faisal Hossain",
+              "id": "ST22351",
+              "roll": "2007",
+              "group": "Commerce",
+              "version": "Bangla",
+              "section": "XIIE",
+              "optionalCourse": "Accounting-1",
+              "averageMark": 15,
+              "totalMark": 92,
+              "subjects": {
+                "Ban-1": 14,
+                "Eng-1": 14,
+                "Accounting-1": 16,
+                "Economics-1": 15,
+                "Business-1": 14,
+                "Marketing-1": 16,
+                "ICT-1": 18
+              }
+            },
+            {
+              "name": "Mariam Akhter",
+              "id": "ST22352",
+              "roll": "2008",
+              "group": "Commerce",
+              "version": "Bangla",
+              "section": "XIIE",
+              "optionalCourse": "Economics-1",
+              "averageMark": 13,
+              "totalMark": 85,
+              "subjects": {
+                "Ban-1": 13,
+                "Eng-1": 13,
+                "Accounting-1": 14,
+                "Economics-1": 13,
+                "Business-1": 14,
+                "Marketing-1": 14,
+                "ICT-1": 16
+              }
+            },
+            {
+              "name": "Sadia Rahman",
+              "id": "ST22353",
+              "roll": "2009",
+              "group": "Commerce",
+              "version": "Bangla",
+              "section": "XIIF",
+              "optionalCourse": "Marketing-1",
+              "averageMark": 18,
+              "totalMark": 110,
+              "subjects": {
+                "Ban-1": 17,
+                "Eng-1": 16,
+                "Accounting-1": 18,
+                "Economics-1": 19,
+                "Business-1": 17,
+                "Marketing-1": 18,
+                "ICT-1": 19
+              }
+            },
+            {
+              "name": "Fahad Alam",
+              "id": "ST22354",
+              "roll": "2010",
+              "group": "Commerce",
+              "version": "Bangla",
+              "section": "XIIF",
+              "optionalCourse": "Economics-1",
+              "averageMark": 14,
+              "totalMark": 90,
+              "subjects": {
+                "Ban-1": 13,
+                "Eng-1": 14,
+                "Accounting-1": 15,
+                "Economics-1": 16,
+                "Business-1": 13,
+                "Marketing-1": 14,
+                "ICT-1": 16
+              }
+            },
+            {
+              "name": "Sakib Hasan",
+              "id": "ST32345",
+              "roll": "3001",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Civics-1",
+              "averageMark": 16,
+              "totalMark": 98,
+              "subjects": {
+                "Ban-1": 15,
+                "Eng-1": 14,
+                "Civics-1": 17,
+                "History-1": 16,
+                "Geography-1": 15,
+                "Sociology-1": 16,
+                "ICT-1": 17
+              }
+            },
+            {
+              "name": "Mahira Khan",
+              "id": "ST32346",
+              "roll": "3002",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Geography-1",
+              "averageMark": 18,
+              "totalMark": 110,
+              "subjects": {
+                "Ban-1": 17,
+                "Eng-1": 16,
+                "Civics-1": 18,
+                "History-1": 18,
+                "Geography-1": 17,
+                "Sociology-1": 18,
+                "ICT-1": 19
+              }
+            },
+            {
+              "name": "Shahana Rahman",
+              "id": "ST32347",
+              "roll": "3003",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Civics-1",
+              "averageMark": 14,
+              "totalMark": 88,
+              "subjects": {
+                "Ban-1": 13,
+                "Eng-1": 14,
+                "Civics-1": 16,
+                "History-1": 15,
+                "Geography-1": 14,
+                "Sociology-1": 15,
+                "ICT-1": 16
+              }
+            },
+            {
+              "name": "Nadia Akter",
+              "id": "ST32348",
+              "roll": "3004",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Geography-1",
+              "averageMark": 19,
+              "totalMark": 116,
+              "subjects": {
+                "Ban-1": 18,
+                "Eng-1": 19,
+                "Civics-1": 19,
+                "History-1": 19,
+                "Geography-1": 19,
+                "Sociology-1": 20,
+                "ICT-1": 20
+              }
+            },
+            {
+              "name": "Tariqul Islam",
+              "id": "ST32349",
+              "roll": "3005",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Civics-1",
+              "averageMark": 12,
+              "totalMark": 76,
+              "subjects": {
+                "Ban-1": 12,
+                "Eng-1": 12,
+                "Civics-1": 13,
+                "History-1": 13,
+                "Geography-1": 12,
+                "Sociology-1": 12,
+                "ICT-1": 14
+              }
+            },
+            {
+              "name": "Adnan Ahmed",
+              "id": "ST32350",
+              "roll": "3006",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Geography-1",
+              "averageMark": 17,
+              "totalMark": 103,
+              "subjects": {
+                "Ban-1": 16,
+                "Eng-1": 16,
+                "Civics-1": 17,
+                "History-1": 17,
+                "Geography-1": 17,
+                "Sociology-1": 17,
+                "ICT-1": 19
+              }
+            },
+            {
+              "name": "Nazifa Alam",
+              "id": "ST32351",
+              "roll": "3007",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIJ",
+              "optionalCourse": "Civics-1",
+              "averageMark": 13,
+              "totalMark": 85,
+              "subjects": {
+                "Ban-1": 13,
+                "Eng-1": 14,
+                "Civics-1": 14,
+                "History-1": 14,
+                "Geography-1": 13,
+                "Sociology-1": 13,
+                "ICT-1": 14
+              }
+            },
+            {
+              "name": "Sumaiya Akhter",
+              "id": "ST32352",
+              "roll": "3008",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIK",
+              "optionalCourse": "Geography-1",
+              "averageMark": 18,
+              "totalMark": 109,
+              "subjects": {
+                "Ban-1": 17,
+                "Eng-1": 16,
+                "Civics-1": 18,
+                "History-1": 18,
+                "Geography-1": 17,
+                "Sociology-1": 18,
+                "ICT-1": 19
+              }
+            },
+            {
+              "name": "Tahmid Hasan",
+              "id": "ST32353",
+              "roll": "3009",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIK",
+              "optionalCourse": "Civics-1",
+              "averageMark": 14,
+              "totalMark": 88,
+              "subjects": {
+                "Ban-1": 13,
+                "Eng-1": 14,
+                "Civics-1": 15,
+                "History-1": 14,
+                "Geography-1": 14,
+                "Sociology-1": 15,
+                "ICT-1": 16
+              }
+            },
+            {
+              "name": "Moinul Islam",
+              "id": "ST32354",
+              "roll": "3010",
+              "group": "Humanities",
+              "version": "Bangla",
+              "section": "XIIK",
+              "optionalCourse": "Geography-1",
+              "averageMark": 15,
+              "totalMark": 92,
+              "subjects": {
+                "Ban-1": 14,
+                "Eng-1": 14,
+                "Civics-1": 15,
+                "History-1": 15,
+                "Geography-1": 16,
+                "Sociology-1": 15,
+                "ICT-1": 18
+              }
+            }
+          ]
+        }
+        
+        
